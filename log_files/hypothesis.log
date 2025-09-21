@@ -1,0 +1,2 @@
+2025-09-21 21:24:34,911-INFO-Dependent variable Unique labels are : ['Good' 'Bad'] :
+2025-09-21 21:24:34,922-INFO-Issue is : 19 : due to : Cannot convert non-finite values (NA or inf) to integer

@@ -1,0 +1,12 @@
+2025-09-21 21:24:34,901-INFO-Total columns : 7 -> without variance 0 : 5 -> with Variance 0.1 : 2
+2025-09-21 21:24:34,901-INFO-Variance 0.1 : names : Index(['RevolvingUtilizationOfUnsecuredLines_log_trim', 'age_log_trim'], dtype='object')
+2025-09-21 21:24:34,905-INFO-training columns After removing variance 0.1 by using constant technique are: Index(['DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')
+2025-09-21 21:24:34,905-INFO-testing columns After removing variance 0.1 by using constant technique are: Index(['DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')

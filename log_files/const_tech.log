@@ -1,0 +1,17 @@
+2025-09-21 21:24:34,882-INFO-Total columns : 11 -> without variance 0 : 7 -> with Variance 0 : 4
+2025-09-21 21:24:34,882-INFO-Variance 0 : names : Index(['NPA Status_log_trim', 'NumberOfTime30-59DaysPastDueNotWorse_log_trim',
+       'NumberOfTimes90DaysLate_log_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_log_trim'],
+      dtype='object')
+2025-09-21 21:24:34,888-INFO-training columns After removing variance 0 by using constant technique are: Index(['RevolvingUtilizationOfUnsecuredLines_log_trim', 'age_log_trim',
+       'DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')
+2025-09-21 21:24:34,888-INFO-testing columns After removing variance 0 by using constant technique are: Index(['RevolvingUtilizationOfUnsecuredLines_log_trim', 'age_log_trim',
+       'DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')
