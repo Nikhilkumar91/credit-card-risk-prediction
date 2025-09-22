@@ -88,7 +88,7 @@ class CREDIT:
 
     def hypo_testing(self):
         try:
-            self.X_train_num, self.y_train,self.y_train,self.y_test=hypothesis_testing(self.X_train_num,self.X_test_num,self.y_train,self.y_test)
+            self.X_train_num,self.X_test_num=hypothesis_testing(self.X_train_num,self.X_test_num,self.y_train,self.y_test)
         except Exception as e:
             er_ty, er_msg, er_lin = sys.exc_info()
             logger.info(f'Issue is : {er_lin.tb_lineno} : due to : {er_msg}')
@@ -224,6 +224,7 @@ class CREDIT:
     def feature_scaling(self):
         try:
             logger.info('---------------Before Scaling------------')
+            logger.info(f'Shape is : {self.training_data_res.shape}--------{self.training_data_res.columns}')
             logger.info(self.training_data_res.head(4))
             stand=StandardScaler()
             stand.fit(self.training_data_res)
@@ -232,6 +233,7 @@ class CREDIT:
             logger.info('------------After Scaling-------------------------')
             logger.info(self.training_data_res_t)
             logger.info(self.testing_data_t)
+            logger.info(self.training_data_res.columns)
 
             #saving Standard scaler also
             with open('standard_scalar.pkl', 'wb') as t:
@@ -286,7 +288,7 @@ if __name__=='__main__':
         obj.merge_data()
         obj.data_balancing()
         obj.feature_scaling()
-        #obj.train_models()
+        obj.train_models()
         obj.best_model_auc_and_roc()
 
     except Exception as e:

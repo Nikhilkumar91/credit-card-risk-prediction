@@ -17,7 +17,7 @@ def index():
 @app.route("/predict", methods=["POST"])
 def predict():
     # Extract values
-    DebitRatio = float(request.form["DebitRatio"])
+    #DebitRatio = float(request.form["DebitRatio"])
     OpenCreditLoans = int(request.form["OpenCreditLoans"])
     RealEstateLoans = int(request.form["RealEstateLoans"])
     MonthlyIncome = float(request.form["MonthlyIncome"])
@@ -38,7 +38,7 @@ def predict():
     rented_ownhouse = 1 if Rented_OwnHouse == "OwnHouse" else 0
 
     # Arrange features in the same order as training
-    features = np.array([[DebitRatio,
+    features = np.array([[
                           OpenCreditLoans,
                           RealEstateLoans,
                           MonthlyIncome,

@@ -1,5 +1,5 @@
-2025-09-21 21:24:34,489-INFO-Data loaded Successfull :(150002, 18)
-2025-09-21 21:24:34,572-INFO-Data loaded Successfull :NPA Status                                  0
+2025-09-22 11:13:18,152-INFO-Data loaded Successfull :(150002, 18)
+2025-09-22 11:13:18,230-INFO-Data loaded Successfull :NPA Status                                  0
 RevolvingUtilizationOfUnsecuredLines        0
 age                                         0
 Gender                                      0
@@ -17,8 +17,8 @@ NumberOfTime60-89DaysPastDueNotWorse        0
 NumberOfDependents                       3924
 Good_Bad                                    0
 dtype: int64
-2025-09-21 21:24:34,616-INFO-Data loaded Successfull :(120000, 120000)
-2025-09-21 21:24:34,728-INFO-NPA Status                              0
+2025-09-22 11:13:18,273-INFO-Data loaded Successfull :(120000, 120000)
+2025-09-22 11:13:18,371-INFO-NPA Status                              0
 RevolvingUtilizationOfUnsecuredLines    0
 age                                     0
 Gender                                  0
@@ -35,7 +35,7 @@ NumberOfTime60-89DaysPastDueNotWorse    0
 MonthlyIncome_replaced                  0
 NumberOfDependents_replaced             0
 dtype: int64
-2025-09-21 21:24:34,734-INFO-NPA Status                              0
+2025-09-22 11:13:18,376-INFO-NPA Status                              0
 RevolvingUtilizationOfUnsecuredLines    0
 age                                     0
 Gender                                  0
@@ -52,21 +52,21 @@ NumberOfTime60-89DaysPastDueNotWorse    0
 MonthlyIncome_replaced                  0
 NumberOfDependents_replaced             0
 dtype: int64
-2025-09-21 21:24:34,754-INFO-Numirical columns are :Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age',
+2025-09-22 11:13:18,395-INFO-Numirical columns are :Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age',
        'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
        'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
        'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
        'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
       dtype='object')
-2025-09-21 21:24:34,754-INFO-Caterigerical Columns are : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
-2025-09-21 21:24:34,792-INFO-Tranformation completed Successfully : Index(['NPA Status_log', 'RevolvingUtilizationOfUnsecuredLines_log', 'age_log',
+2025-09-22 11:13:18,395-INFO-Caterigerical Columns are : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2025-09-22 11:13:18,428-INFO-Tranformation completed Successfully : Index(['NPA Status_log', 'RevolvingUtilizationOfUnsecuredLines_log', 'age_log',
        'NumberOfTime30-59DaysPastDueNotWorse_log', 'DebtRatio_log',
        'NumberOfOpenCreditLinesAndLoans_log', 'NumberOfTimes90DaysLate_log',
        'NumberRealEstateLoansOrLines_log',
        'NumberOfTime60-89DaysPastDueNotWorse_log',
        'MonthlyIncome_replaced_log', 'NumberOfDependents_replaced_log'],
       dtype='object')
-2025-09-21 21:24:34,861-INFO-Trimming  completed Successfully : Index(['NPA Status_log_trim', 'RevolvingUtilizationOfUnsecuredLines_log_trim',
+2025-09-22 11:13:18,477-INFO-Trimming  completed Successfully : Index(['NPA Status_log_trim', 'RevolvingUtilizationOfUnsecuredLines_log_trim',
        'age_log_trim', 'NumberOfTime30-59DaysPastDueNotWorse_log_trim',
        'DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
        'NumberOfTimes90DaysLate_log_trim',
@@ -75,13 +75,12 @@ dtype: int64
        'MonthlyIncome_replaced_log_trim',
        'NumberOfDependents_replaced_log_trim'],
       dtype='object')
-2025-09-21 21:24:34,922-INFO-Issue is : 91 : due to : cannot unpack non-iterable NoneType object
-2025-09-21 21:24:34,922-INFO-Categorical Columns:
-2025-09-21 21:24:34,922-INFO-Train Categorical Columns : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
-2025-09-21 21:24:34,922-INFO-Test categorical Columns : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
-2025-09-21 21:24:34,932-INFO-[array(['Female', 'Male'], dtype=object), array(['Central', 'East', 'North', 'South', 'West'], dtype=object)]
-2025-09-21 21:24:34,932-INFO-['Gender_Male' 'Region_East' 'Region_North' 'Region_South' 'Region_West']
-2025-09-21 21:24:35,023-INFO-Gender             0
+2025-09-22 11:13:18,583-INFO-Categorical Columns:
+2025-09-22 11:13:18,583-INFO-Train Categorical Columns : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2025-09-22 11:13:18,583-INFO-Test categorical Columns : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2025-09-22 11:13:18,596-INFO-[array(['Female', 'Male'], dtype=object), array(['Central', 'East', 'North', 'South', 'West'], dtype=object)]
+2025-09-22 11:13:18,596-INFO-['Gender_Male' 'Region_East' 'Region_North' 'Region_South' 'Region_West']
+2025-09-22 11:13:18,683-INFO-Gender             0
 Region             0
 Rented_OwnHouse    0
 Occupation         0
@@ -92,7 +91,7 @@ Region_North       0
 Region_South       0
 Region_West        0
 dtype: int64
-2025-09-21 21:24:35,028-INFO-Gender             0
+2025-09-22 11:13:18,690-INFO-Gender             0
 Region             0
 Rented_OwnHouse    0
 Occupation         0
@@ -103,25 +102,25 @@ Region_North       0
 Region_South       0
 Region_West        0
 dtype: int64
-2025-09-21 21:24:35,041-INFO-Sample Training Data : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
-       'Gender_Male', 'Region_East', 'Region_North', 'Region_South',
-       'Region_West'],
-      dtype='object')-------->        Gender   Region Rented_OwnHouse Occupation     Education  Gender_Male  Region_East  Region_North  Region_South  Region_West
-106327    Male    South        Ownhouse   Self_Emp        Matric          1.0          0.0           0.0           1.0          0.0
-76051     Male    South        Ownhouse   Officer2  Professional          1.0          0.0           0.0           1.0          0.0
-40309   Female    South        Ownhouse   Self_Emp        Matric          0.0          0.0           0.0           1.0          0.0
-53075   Female  Central          Rented   Officer2  Professional          0.0          0.0           0.0           0.0          0.0
-41946     Male     West          Rented   Self_Emp      Graduate          1.0          0.0           0.0           0.0          1.0
-2025-09-21 21:24:35,054-INFO-Sample Test Data : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+2025-09-22 11:13:18,708-INFO-Sample Training Data : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
        'Gender_Male', 'Region_East', 'Region_North', 'Region_South',
        'Region_West'],
       dtype='object')-------->       Gender   Region Rented_OwnHouse   Occupation     Education  Gender_Male  Region_East  Region_North  Region_South  Region_West
-5978   Female  Central        Ownhouse  Non-officer      Graduate          0.0          0.0           0.0           0.0          0.0
-21411    Male     West        Ownhouse     Self_Emp      Graduate          1.0          0.0           0.0           0.0          1.0
-20123  Female  Central        Ownhouse  Non-officer      Graduate          0.0          0.0           0.0           0.0          0.0
-15466    Male     West        Ownhouse     Officer3  Professional          1.0          0.0           0.0           0.0          1.0
-13792  Female     East          Rented     Officer1     Post-Grad          0.0          1.0           0.0           0.0          0.0
-2025-09-21 21:24:35,054-INFO-before applying Ordinal encoder training Occupation: 0       Self_Emp
+94278    Male     West        Ownhouse     Officer2  Professional          1.0          0.0           0.0           0.0          1.0
+37203  Female  Central          Rented     Officer3     Post-Grad          0.0          0.0           0.0           0.0          0.0
+39516    Male     West          Rented     Self_Emp  Professional          1.0          0.0           0.0           0.0          1.0
+7660   Female    North        Ownhouse  Non-officer      Graduate          0.0          0.0           1.0           0.0          0.0
+97459    Male    North        Ownhouse     Self_Emp      Graduate          1.0          0.0           1.0           0.0          0.0
+2025-09-22 11:13:18,717-INFO-Sample Test Data : Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'Gender_Male', 'Region_East', 'Region_North', 'Region_South',
+       'Region_West'],
+      dtype='object')-------->       Gender   Region Rented_OwnHouse Occupation     Education  Gender_Male  Region_East  Region_North  Region_South  Region_West
+28987  Female     East          Rented   Self_Emp     Post-Grad          0.0          1.0           0.0           0.0          0.0
+11188  Female  Central          Rented   Self_Emp  Professional          0.0          0.0           0.0           0.0          0.0
+17099    Male     West        Ownhouse   Officer1  Professional          1.0          0.0           0.0           0.0          1.0
+11283    Male    North        Ownhouse   Officer3     Post-Grad          1.0          0.0           1.0           0.0          0.0
+15721    Male    South        Ownhouse   Officer2  Professional          1.0          0.0           0.0           1.0          0.0
+2025-09-22 11:13:18,718-INFO-before applying Ordinal encoder training Occupation: 0       Self_Emp
 1       Self_Emp
 2    Non-officer
 3    Non-officer
@@ -132,7 +131,7 @@ dtype: int64
 8       Self_Emp
 9       Officer2
 Name: Occupation, dtype: object
-2025-09-21 21:24:35,055-INFO-before applying Ordinal encoder training Education: 0        Graduate
+2025-09-22 11:13:18,718-INFO-before applying Ordinal encoder training Education: 0        Graduate
 1          Matric
 2    Professional
 3    Professional
@@ -143,17 +142,17 @@ Name: Occupation, dtype: object
 8        Graduate
 9    Professional
 Name: Education, dtype: object
-2025-09-21 21:24:35,056-INFO-after applying Ordinal encoder training Region : 0    0.0
+2025-09-22 11:13:18,720-INFO-after applying Ordinal encoder training Region : 0    0.0
 Name: Region_East, dtype: float64--0    1.0
 Name: Region_West, dtype: float64---0    0.0
 Name: Region_North, dtype: float64 - ---0    0.0
 Name: Region_South, dtype: float64
-2025-09-21 21:24:35,056-INFO-before applyiing 
-2025-09-21 21:24:35,070-INFO-[array(['Ownhouse', 'Rented'], dtype=object), array(['Non-officer', 'Officer1', 'Officer2', 'Officer3', 'Self_Emp'],
+2025-09-22 11:13:18,720-INFO-before applyiing 
+2025-09-22 11:13:18,732-INFO-[array(['Ownhouse', 'Rented'], dtype=object), array(['Non-officer', 'Officer1', 'Officer2', 'Officer3', 'Self_Emp'],
       dtype=object), array(['Graduate', 'Matric', 'PhD', 'Post-Grad', 'Professional'],
       dtype=object)]
-2025-09-21 21:24:35,070-INFO-['Rented_OwnHouse' 'Occupation' 'Education']
-2025-09-21 21:24:35,162-INFO-Gender_Male             0
+2025-09-22 11:13:18,732-INFO-['Rented_OwnHouse' 'Occupation' 'Education']
+2025-09-22 11:13:18,790-INFO-Gender_Male             0
 Region_East             0
 Region_North            0
 Region_South            0
@@ -162,7 +161,7 @@ Rented_OwnHouse_conv    0
 Occupation_conv         0
 Education_conv          0
 dtype: int64
-2025-09-21 21:24:35,163-INFO-Gender_Male             0
+2025-09-22 11:13:18,790-INFO-Gender_Male             0
 Region_East             0
 Region_North            0
 Region_South            0
@@ -171,7 +170,7 @@ Rented_OwnHouse_conv    0
 Occupation_conv         0
 Education_conv          0
 dtype: int64
-2025-09-21 21:24:35,164-INFO-after applying Ordinal encoder training Occupation : 0    4.0
+2025-09-22 11:13:18,791-INFO-after applying Ordinal encoder training Occupation : 0    4.0
 1    4.0
 2    0.0
 3    0.0
@@ -182,7 +181,7 @@ dtype: int64
 8    4.0
 9    2.0
 Name: Occupation_conv, dtype: float64
-2025-09-21 21:24:35,165-INFO-after applying Ordinal encoder training Education  : 0    0.0
+2025-09-22 11:13:18,792-INFO-after applying Ordinal encoder training Education  : 0    0.0
 1    1.0
 2    4.0
 3    4.0
@@ -193,34 +192,34 @@ Name: Occupation_conv, dtype: float64
 8    0.0
 9    4.0
 Name: Education_conv, dtype: float64
-2025-09-21 21:24:35,167-INFO-after applying Ordinal encoder training Region : 0    0.0
+2025-09-22 11:13:18,793-INFO-after applying Ordinal encoder training Region : 0    0.0
 Name: Region_East, dtype: float64--0    1.0
 Name: Region_West, dtype: float64---0    0.0
 Name: Region_North, dtype: float64----0    0.0
 Name: Region_South, dtype: float64
-2025-09-21 21:24:35,178-INFO-Sample Training Data : Index(['Gender_Male', 'Region_East', 'Region_North', 'Region_South',
+2025-09-22 11:13:18,799-INFO-Sample Training Data : Index(['Gender_Male', 'Region_East', 'Region_North', 'Region_South',
+       'Region_West', 'Rented_OwnHouse_conv', 'Occupation_conv',
+       'Education_conv'],
+      dtype='object')-------->        Gender_Male  Region_East  Region_North  Region_South  Region_West  Rented_OwnHouse_conv  Occupation_conv  Education_conv
+73782           1.0          0.0           0.0           1.0          0.0                   0.0              4.0             1.0
+100448          0.0          0.0           0.0           0.0          1.0                   0.0              3.0             3.0
+4986            1.0          0.0           0.0           1.0          0.0                   0.0              4.0             1.0
+79213           1.0          0.0           1.0           0.0          0.0                   1.0              0.0             0.0
+41923           1.0          0.0           0.0           0.0          0.0                   1.0              4.0             0.0
+2025-09-22 11:13:18,805-INFO-Sample Test Data : Index(['Gender_Male', 'Region_East', 'Region_North', 'Region_South',
        'Region_West', 'Rented_OwnHouse_conv', 'Occupation_conv',
        'Education_conv'],
       dtype='object')-------->       Gender_Male  Region_East  Region_North  Region_South  Region_West  Rented_OwnHouse_conv  Occupation_conv  Education_conv
-6307           0.0          0.0           1.0           0.0          0.0                   0.0              4.0             1.0
-97795          0.0          0.0           0.0           0.0          0.0                   1.0              0.0             4.0
-34581          1.0          0.0           1.0           0.0          0.0                   0.0              1.0             3.0
-30348          0.0          0.0           0.0           0.0          1.0                   1.0              0.0             4.0
-70262          0.0          0.0           0.0           0.0          0.0                   0.0              0.0             4.0
-2025-09-21 21:24:35,185-INFO-Sample Test Data : Index(['Gender_Male', 'Region_East', 'Region_North', 'Region_South',
-       'Region_West', 'Rented_OwnHouse_conv', 'Occupation_conv',
-       'Education_conv'],
-      dtype='object')-------->       Gender_Male  Region_East  Region_North  Region_South  Region_West  Rented_OwnHouse_conv  Occupation_conv  Education_conv
-10759          0.0          1.0           0.0           0.0          0.0                   1.0              4.0             3.0
-25992          1.0          0.0           0.0           1.0          0.0                   0.0              4.0             4.0
-27596          0.0          0.0           0.0           0.0          0.0                   1.0              0.0             0.0
-199            1.0          0.0           1.0           0.0          0.0                   0.0              3.0             3.0
-3920           1.0          0.0           0.0           0.0          1.0                   0.0              0.0             0.0
-2025-09-21 21:24:35,188-INFO-y_train_data : ['Good' 'Bad']
-2025-09-21 21:24:35,191-INFO-y_train_data : 0
-2025-09-21 21:24:35,192-INFO-y_test_data : ['Good' 'Bad']
-2025-09-21 21:24:35,193-INFO-y_test_data : 0
-2025-09-21 21:24:35,193-INFO-104025    Good
+1027           0.0          0.0           1.0           0.0          0.0                   0.0              4.0             3.0
+29370          1.0          0.0           0.0           0.0          0.0                   0.0              0.0             0.0
+9926           0.0          0.0           1.0           0.0          0.0                   1.0              0.0             0.0
+15727          1.0          0.0           1.0           0.0          0.0                   1.0              0.0             0.0
+4943           1.0          0.0           0.0           1.0          0.0                   0.0              4.0             4.0
+2025-09-22 11:13:18,809-INFO-y_train_data : ['Good' 'Bad']
+2025-09-22 11:13:18,812-INFO-y_train_data : 0
+2025-09-22 11:13:18,814-INFO-y_test_data : ['Good' 'Bad']
+2025-09-22 11:13:18,815-INFO-y_test_data : 0
+2025-09-22 11:13:18,817-INFO-104025    Good
 5415      Good
 75612     Good
 138169    Good
@@ -231,74 +230,88 @@ Name: Region_South, dtype: float64
 93438     Good
 149607    Good
 Name: Good_Bad, dtype: object
-2025-09-21 21:24:35,209-INFO-detailed : ['Bad' 'Good'] 
-2025-09-21 21:24:35,209-INFO-[1 1 1 1 1 1 0 1 1 1]
-2025-09-21 21:24:35,209-INFO-y_train_data : (120000,)
-2025-09-21 21:24:35,209-INFO-y_test_data : (30000,)
-2025-09-21 21:24:35,229-INFO-Training data : Index(['DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+2025-09-22 11:13:18,839-INFO-detailed : ['Bad' 'Good'] 
+2025-09-22 11:13:18,839-INFO-[1 1 1 1 1 1 0 1 1 1]
+2025-09-22 11:13:18,839-INFO-y_train_data : (120000,)
+2025-09-22 11:13:18,839-INFO-y_test_data : (30000,)
+2025-09-22 11:13:18,861-INFO-Training data : Index(['NumberOfOpenCreditLinesAndLoans_log_trim',
        'NumberRealEstateLoansOrLines_log_trim',
        'MonthlyIncome_replaced_log_trim',
        'NumberOfDependents_replaced_log_trim', 'Gender_Male', 'Region_East',
        'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse_conv',
        'Occupation_conv', 'Education_conv'],
       dtype='object')
-2025-09-21 21:24:35,229-INFO-Testing data : Index(['DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+2025-09-22 11:13:18,862-INFO-Testing data : Index(['NumberOfOpenCreditLinesAndLoans_log_trim',
        'NumberRealEstateLoansOrLines_log_trim',
        'MonthlyIncome_replaced_log_trim',
        'NumberOfDependents_replaced_log_trim', 'Gender_Male', 'Region_East',
        'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse_conv',
        'Occupation_conv', 'Education_conv'],
       dtype='object')
-2025-09-21 21:24:35,229-INFO---------------------Before Balancing-------------------------
-2025-09-21 21:24:35,239-INFO-Number of Good category for total training data 120000 is : 111930
-2025-09-21 21:24:35,251-INFO-Number of Bad category for total training data 120000 is : 8070
-2025-09-21 21:24:35,570-INFO---------------------After Balancing-------------------------
-2025-09-21 21:24:35,585-INFO-Number of Good category for total training data 223860 is : 111930
-2025-09-21 21:24:35,604-INFO-Number of Bad category for total training data 223860 is : 111930
-2025-09-21 21:24:35,605-INFO----------------Before Scaling------------
-2025-09-21 21:24:35,605-INFO-   DebtRatio_log_trim  NumberOfOpenCreditLinesAndLoans_log_trim  NumberRealEstateLoansOrLines_log_trim  ...  Rented_OwnHouse_conv  Occupation_conv  Education_conv
-0            0.261041                                  1.609438                               0.000000  ...                   0.0              4.0             0.0
-1            0.607226                                  2.484907                               0.693147  ...                   0.0              4.0             1.0
-2            0.258764                                  1.945910                               0.000000  ...                   1.0              0.0             4.0
-3            0.058053                                  1.098612                               0.000000  ...                   0.0              0.0             4.0
+2025-09-22 11:13:18,862-INFO---------------------Before Balancing-------------------------
+2025-09-22 11:13:18,872-INFO-Number of Good category for total training data 120000 is : 111930
+2025-09-22 11:13:18,879-INFO-Number of Bad category for total training data 120000 is : 8070
+2025-09-22 11:13:19,102-INFO---------------------After Balancing-------------------------
+2025-09-22 11:13:19,122-INFO-Number of Good category for total training data 223860 is : 111930
+2025-09-22 11:13:19,138-INFO-Number of Bad category for total training data 223860 is : 111930
+2025-09-22 11:13:19,138-INFO----------------Before Scaling------------
+2025-09-22 11:13:19,138-INFO-Shape is : (223860, 12)--------Index(['NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim', 'Gender_Male', 'Region_East',
+       'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse_conv',
+       'Occupation_conv', 'Education_conv'],
+      dtype='object')
+2025-09-22 11:13:19,138-INFO-   NumberOfOpenCreditLinesAndLoans_log_trim  NumberRealEstateLoansOrLines_log_trim  MonthlyIncome_replaced_log_trim  ...  Rented_OwnHouse_conv  Occupation_conv  Education_conv
+0                                  1.609438                               0.000000                         7.824446  ...                   0.0              4.0             0.0
+1                                  2.484907                               0.693147                         7.514255  ...                   0.0              4.0             1.0
+2                                  1.945910                               0.000000                         8.556606  ...                   1.0              0.0             4.0
+3                                  1.098612                               0.000000                         9.105091  ...                   0.0              0.0             4.0
 
-[4 rows x 13 columns]
-2025-09-21 21:24:35,677-INFO-------------After Scaling-------------------------
-2025-09-21 21:24:35,677-INFO-[[-0.50846377 -0.73758061 -1.07448419 ... -0.87137754  0.98650342
-  -1.37958221]
- [ 0.28356659  0.72765341  0.28715372 ... -0.87137754  0.98650342
-  -0.75092967]
- [-0.51367336 -0.17444163 -1.07448419 ...  1.15406677 -1.35815118
-   1.13502794]
+[4 rows x 12 columns]
+2025-09-22 11:13:19,194-INFO-------------After Scaling-------------------------
+2025-09-22 11:13:19,194-INFO-[[-0.73406417 -1.06976396 -0.98519184 ... -0.87051224  0.98638078
+  -1.37968452]
+ [ 0.72894211  0.29148928 -1.44906441 ... -0.87051224  0.98638078
+  -0.75101937]
+ [-0.17178139 -1.06976396  0.10971018 ...  1.15289031 -1.35829018
+   1.13497608]
  ...
- [ 1.93376725 -1.26360263 -1.07448419 ... -0.87137754  0.98650342
-  -0.75092967]
- [-1.10569457 -2.17257244 -1.07448419 ... -0.87137754  0.98650342
-  -0.75092967]
- [ 0.13427199  0.64253316  2.11343336 ...  1.15406677  0.98650342
-   0.5063754 ]]
-2025-09-21 21:24:35,677-INFO-[[ 1.93376725 -2.17257244 -1.07448419 ...  1.15406677  0.98650342
-   1.13502794]
- [-0.80078084  0.42250973  0.28715372 ...  1.15406677  0.40033977
-   0.5063754 ]
- [-0.62039314 -0.17444163  1.08366084 ...  1.15406677 -0.77198753
-   0.5063754 ]
+ [-2.16687425 -1.06976396  0.35852137 ... -0.87051224  0.98638078
+  -0.75101937]
+ [-2.16687425 -1.06976396 -1.41792807 ... -0.87051224  0.98638078
+  -0.75101937]
+ [ 1.31801354  2.97252143  1.73759055 ...  1.15289031  0.98638078
+   0.50631093]]
+2025-09-22 11:13:19,194-INFO-[[-2.16687425 -1.06976396  0.87924442 ...  1.15289031  0.98638078
+   1.13497608]
+ [ 0.42426237  0.29148928  0.70634745 ...  1.15289031  0.40021304
+   0.50631093]
+ [-0.17178139  1.08777138  0.32367062 ...  1.15289031 -0.77212244
+   0.50631093]
  ...
- [-0.30495942  1.2091344   1.08366084 ...  1.15406677  0.98650342
-  -1.37958221]
- [-0.44679004  1.10111908  1.08366084 ...  1.15406677 -0.77198753
-   1.13502794]
- [-0.71134978  0.04904406  1.08366084 ...  1.15406677  0.40033977
-   0.5063754 ]]
-2025-09-21 21:24:35,839-INFO-Accuracy Score is : 0.9218
-2025-09-21 21:24:35,844-INFO-Confusion Matxis  is :
- [[   14  1942]
- [  404 27640]]
-2025-09-21 21:24:35,860-INFO-Classification Report  is : 
+ [ 1.20969106  1.08777138  1.2299973  ...  1.15289031  0.98638078
+  -1.37968452]
+ [ 1.10183996  1.08777138  1.13167927 ...  1.15289031 -0.77212244
+   1.13497608]
+ [ 0.05136451  1.08777138  0.65731865 ...  1.15289031  0.40021304
+   0.50631093]]
+2025-09-22 11:13:19,195-INFO-Index(['NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim', 'Gender_Male', 'Region_East',
+       'Region_North', 'Region_South', 'Region_West', 'Rented_OwnHouse_conv',
+       'Occupation_conv', 'Education_conv'],
+      dtype='object')
+2025-09-22 11:13:55,483-INFO-Accuracy Score is : 0.9201666666666667
+2025-09-22 11:13:55,490-INFO-Confusion Matxis  is :
+ [[   15  1941]
+ [  454 27590]]
+2025-09-22 11:13:55,511-INFO-Classification Report  is : 
               precision    recall  f1-score   support
 
            0       0.03      0.01      0.01      1956
-           1       0.93      0.99      0.96     28044
+           1       0.93      0.98      0.96     28044
 
     accuracy                           0.92     30000
    macro avg       0.48      0.50      0.49     30000

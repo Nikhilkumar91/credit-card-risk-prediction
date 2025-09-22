@@ -1,2 +1,29 @@
-2025-09-21 21:24:34,911-INFO-Dependent variable Unique labels are : ['Good' 'Bad'] :
-2025-09-21 21:24:34,922-INFO-Issue is : 19 : due to : Cannot convert non-finite values (NA or inf) to integer
+2025-09-22 11:13:18,521-INFO-(30000,)
+2025-09-22 11:13:18,521-INFO-(120000,)
+2025-09-22 11:13:18,529-INFO-Dependent variable Unique labels are : ['Good' 'Bad'] :
+2025-09-22 11:13:18,537-INFO-0
+2025-09-22 11:13:18,549-INFO-Dependent variable Unique labels are : [1 0] ---->144714    1
+35834     1
+35788     1
+19554     1
+99899     1
+Name: Good_Bad, dtype: int64----->Index(['DebtRatio_log_trim', 'NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')
+2025-09-22 11:13:18,577-INFO-Hypothesis Testing : [[-2.16002548e-03  4.54310671e-01]
+ [ 5.24499742e-02  7.22896022e-74]
+ [ 2.93657928e-02  2.57198776e-24]
+ [ 4.51443208e-02  3.52297671e-55]
+ [-4.42595760e-02  4.17522965e-53]]
+2025-09-22 11:13:18,582-INFO-Train Column Names : Index(['NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')
+2025-09-22 11:13:18,582-INFO-Test Column Names : Index(['NumberOfOpenCreditLinesAndLoans_log_trim',
+       'NumberRealEstateLoansOrLines_log_trim',
+       'MonthlyIncome_replaced_log_trim',
+       'NumberOfDependents_replaced_log_trim'],
+      dtype='object')
