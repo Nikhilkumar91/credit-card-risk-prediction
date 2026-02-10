@@ -1,4 +1,4 @@
-# Credit Card Risk Prediction
+## Credit Card Risk Prediction
 
 ## Overview
 This project predicts **credit card default risk** using machine learning techniques.  
@@ -89,7 +89,7 @@ The analysis successfully segments the customer base into two distinct risk prof
 | **Payment History** | Consistent / On-time | Frequent Delays |
 | **Credit Usage** | Controlled | High / Maxed Out |
 | **Default Risk** | Low | High |
-| **Business Action** | Reward & Retain | Monitor & Restrict |
+| **Business Action** | Reward & Retain | Monitor & Restrict 
 
 ---
 
@@ -105,6 +105,13 @@ The analysis successfully segments the customer base into two distinct risk prof
    git clone [https://github.com/your-username/credit-card-risk-prediction.git](https://github.com/your-username/credit-card-risk-prediction.git)
    cd credit-card-risk-prediction
 
+----
+
+## Project Developed by :
+
+V Nikhil Kumar
+
+Aspiring AI/ML ENgineer & Data Scientist
 
 
 
